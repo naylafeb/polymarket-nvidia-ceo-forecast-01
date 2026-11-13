@@ -6,7 +6,8 @@ Forecasts the Yes price of every trading market of Polymarket's event
 five quantiles (5%, 25%, 50%, 75%, 95%) per market per minute.
 
 Model (calibrated on the six practice cases; practice pinball loss 0.2546
-vs the house baseline's 0.3636):
+vs the house baseline's 0.3636; the board's best is 0.241, rank 100 is
+0.259, so this sits around rank 45 on practice):
   * Median: the last price, pulled by two forces that the practice
     history shows are real.
       - Asymmetric bounce: a rise in the last hour gives most of it
